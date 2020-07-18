@@ -42,7 +42,7 @@ p {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;  
+    height: 2.5rem;
 }
 
 #message {
@@ -91,4 +91,13 @@ button:hover {
     color: white;
     background: steelblue;
 }
+
+@media (max-width: 599px), (max-height: 700px) {
+    #message {
+      display: none;
+    }
+    footer {
+        display: none; 
+    }
+  }
   
