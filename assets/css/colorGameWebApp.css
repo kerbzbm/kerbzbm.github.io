@@ -16,6 +16,10 @@ h1 {
     padding: 20px 0;
 }
 
+p {
+    text-align: center;
+}
+
 .square {
     width: 30%;
     background: purple;
@@ -34,10 +38,18 @@ h1 {
 
 }
 
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+}
+
 #message {
     display: inline-block;
     width: 20%;
 }
+
 #stripe {
     background-color: white ;
     height: 30px;
@@ -51,6 +63,7 @@ h1 {
     color: white;
     
 }
+
 #colorDisplay {
     font-size: 200%;
 }
